@@ -9,7 +9,7 @@ export default new Command(
   new SlashCommandBuilder()
     .setName("trunc")
     .setDescription(
-      "Choose a number between 1 and 100 and i will trunc this amount of messages for you !"
+      "Choose a number between 1 and 150 and i will trunc this amount of messages for you !"
     )
     .setDefaultMemberPermissions(PermissionFlagsBits.ManageMessages)
     .addIntegerOption((option) =>
@@ -21,9 +21,9 @@ export default new Command(
   async (slash) => {
     try {
       const amount = slash.options.getInteger("amount", true);
-      if (amount < 1 || amount > 100) {
+      if (amount < 1 || amount > 150) {
         slash.reply({
-          content: "Amount must be between 1 and 100 !",
+          content: "Amount must be between 1 and 150 !",
           ephemeral: true,
         });
       } else {

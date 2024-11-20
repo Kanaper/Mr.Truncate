@@ -8,7 +8,7 @@ Mr.Truncate est une extension (un bot) de discord qui a pour but premier de perm
 
 - /trunc [amount]
 
-cette commande permet de supprimer un nombre donné de messages. Ce nombre doit être entre 1 et 100.
+cette commande permet de supprimer un nombre donné de messages. Ce nombre doit être entre 1 et 150.
 
 Disclaimer : Les messages à effacer doivent être récent d'au plus 14 jours pour qu'ils puissent être effacées. Ceci est due à une restriction de l'API imposée par directement par Discord.
 
